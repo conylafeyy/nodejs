@@ -1,19 +1,30 @@
 {
-  "name": "nodejs",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/conylafeyy/nodejs.git"
-  },
-  "author": "ekagapova",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/conylafeyy/nodejs/issues"
-  },
-  "homepage": "https://github.com/conylafeyy/nodejs#readme"
-}
+    "name": "node",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "lint": "eslint ./src", 
+      "lint:fix": "eslint ./src --fix", 
+      "prettier": "prettier  — write src/**/*.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/conylafeyy/nodejs.git"
+    },
+    "author": "ekagapova",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/conylafeyy/nodejs/issues"
+    },
+    "homepage": "https://github.com/conylafeyy/nodejs#readme",
+    "devDependencies": {
+      "eslint": "^7.32.0",
+      "eslint-config-airbnb": "^19.0.4",
+      "eslint-plugin-import": "^2.25.4",
+      "eslint-plugin-node": "^11.1.0",
+      "eslint-plugin-promise": "^5.2.0",
+      "prettier": "2.5.1"
+    }
+  }
+  
